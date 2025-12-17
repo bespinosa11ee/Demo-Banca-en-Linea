@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>transacciones a cuentas propias del mismo usario</description>
+   <name>TC5 Transacciones entre cuentas propias</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0092e30a-8773-4ac9-9615-ad9c3945df46</testCaseGuid>
+</TestCaseEntity>

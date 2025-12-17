@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>se inicia sesion con credenciales validas</description>
+   <name>TC1 Login Correcto</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4ddda48-2b7a-41a4-ae79-fb3ce3b26075</testCaseGuid>
+</TestCaseEntity>

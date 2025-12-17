@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>seleccione Cuenta de DbitoDebit</name>
+   <tag></tag>
+   <elementGuidId>04db1aaa-30a1-46b1-bb59-cfbdd092dbc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='dijit_form_Select_3']/tbody/tr/td/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.dijitReset.dijitInline.dijitSelectLabel.dijitValidationTextBoxLabel</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Cuenta de la transferencia&quot;i] >> internal:role=option</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7249cdfa-6ef7-4614-93f9-62914f241d8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>77f2b76f-50e0-47d6-a95b-4e05e9183169</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dijitReset dijitInline dijitSelectLabel dijitValidationTextBoxLabel </value>
+      <webElementGuid>2931da20-26e8-4974-824b-b7efac71b66f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Seleccione un ítem</value>
+      <webElementGuid>4eeb6bf3-0666-4fc6-a5b7-8ac05f87adaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dijit_form_Select_3&quot;)/tbody[1]/tr[1]/td[@class=&quot;dijitReset dijitStretch dijitButtonContents&quot;]/div[@class=&quot;dijitReset dijitInputField dijitButtonText&quot;]/span[@class=&quot;dijitReset dijitInline dijitSelectLabel dijitValidationTextBoxLabel&quot;]</value>
+      <webElementGuid>adf8a391-99ca-4133-b8d9-e42efad39ab3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='dijit_form_Select_3']/tbody/tr/td/div/span</value>
+      <webElementGuid>f161ca66-b4db-4c88-a550-0aeb3a95ffa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Cuenta de D¿bito¿Debit Account'])[1]/following::span[1]</value>
+      <webElementGuid>4dfe3348-9514-4ea1-a46c-bb322d330e14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Datos de la Transferencia'])[1]/following::span[1]</value>
+      <webElementGuid>31fcc6eb-7c43-48aa-a57b-0a70f32235cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Monto¿Amount'])[1]/preceding::span[1]</value>
+      <webElementGuid>06fbd614-32fd-4955-8762-b36ad949fefd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificaci¿n Beneficiario¿Beneficiary Identification'])[1]/preceding::span[1]</value>
+      <webElementGuid>5f96da7f-36a0-4b09-b3fa-cf09ea6ab9cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Seleccione un ítem']/parent::*</value>
+      <webElementGuid>410e2a0e-fd5e-449e-8ec2-33f72eee8402</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/span</value>
+      <webElementGuid>825f2228-613b-42f9-9188-a7486c7caaa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Seleccione un ítem' or . = 'Seleccione un ítem')]</value>
+      <webElementGuid>8fecbe7c-f5c4-4725-ac86-98baa70f64c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

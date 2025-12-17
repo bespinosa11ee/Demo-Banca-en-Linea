@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>transacciones a cuentas de credicorp bank entre cuentas del mimso banco</description>
+   <name>TC4 Transacciones cuentas credicorp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bdb82150-47db-4645-b997-3668b4aca7ce</testCaseGuid>
+</TestCaseEntity>

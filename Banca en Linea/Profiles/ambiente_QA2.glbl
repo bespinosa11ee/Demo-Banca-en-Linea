@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>ambiente_QA2</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>link del ambiente QA2</description>
+      <initValue>'http://10.10.23.211:8280/mcm-web-render/pages/index.jsp'</initValue>
+      <name>Link</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

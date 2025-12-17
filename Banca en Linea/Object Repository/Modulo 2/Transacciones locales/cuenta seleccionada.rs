@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cuenta seleccionada</name>
+   <tag></tag>
+   <elementGuidId>9f561820-00ba-4fec-8125-5be30bf81da7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[contains (., '4020553002')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#dijit_MenuItem_67_text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;4020553002 - QA2-BMCreden - USD - 2,175,032.23 - AHORRO EMPLEADOS&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>ca1bafa6-9b28-4338-8433-63c73b913cb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dijitReset dijitMenuItemLabel</value>
+      <webElementGuid>2ead9c79-01f5-4ddf-95b3-68db3937cab9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>ddd504fd-a79c-478a-8ff5-231c429ecc1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dojo-attach-point</name>
+      <type>Main</type>
+      <value>containerNode,textDirNode</value>
+      <webElementGuid>7a07955d-ce36-46cf-9678-00a68ffbed40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dijit_MenuItem_67_text</value>
+      <webElementGuid>21981d21-7729-42e7-a792-bbd936e21306</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>4020553002 - QA2-BMCreden - USD -         2,175,032.23 - AHORRO EMPLEADOS</value>
+      <webElementGuid>3be969a7-4fa1-4691-8d70-9b5ecb18766a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dijit_MenuItem_67_text&quot;)</value>
+      <webElementGuid>37bee890-5200-44a9-b050-2abf9d2668dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='dijit_MenuItem_67_text']</value>
+      <webElementGuid>5ee3afaa-e8d0-414b-a89c-86730a412391</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='dijit_MenuItem_67']/td[2]</value>
+      <webElementGuid>ea277b0a-ee90-4151-a348-ab78bbe4ec48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[20]/following::td[2]</value>
+      <webElementGuid>95413296-6607-4ab4-be76-e6343c9ef5b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[19]/following::td[6]</value>
+      <webElementGuid>5035bb7a-6747-4fa2-914e-432bb14de5bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[21]/preceding::td[2]</value>
+      <webElementGuid>1c6e1785-608b-4956-9dec-55f1ba5e955f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[22]/preceding::td[6]</value>
+      <webElementGuid>9c08b3b5-ae9b-4ec8-8ca6-ccd1a8c375ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/table/tbody/tr[4]/td[2]</value>
+      <webElementGuid>17356fd0-869b-43e5-868b-a1027fc179a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[@id = 'dijit_MenuItem_67_text' and (text() = '4020553002 - QA2-BMCreden - USD -         2,175,032.23 - AHORRO EMPLEADOS' or . = '4020553002 - QA2-BMCreden - USD -         2,175,032.23 - AHORRO EMPLEADOS')]</value>
+      <webElementGuid>1ea939af-643f-445c-90d8-456097df50aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>se inicia sesion con credenciales invalidas</description>
+   <name>TC2 cerrar sesion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a26bee94-745e-410a-b347-29e8f2b4cd9b</testCaseGuid>
+</TestCaseEntity>

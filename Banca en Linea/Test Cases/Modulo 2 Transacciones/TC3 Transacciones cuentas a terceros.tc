@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3 Transacciones cuentas a terceros</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f0c3ac02-5ad4-4289-a78d-7274cd880b16</testCaseGuid>
+</TestCaseEntity>
