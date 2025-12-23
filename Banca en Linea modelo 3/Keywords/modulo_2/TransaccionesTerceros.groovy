@@ -276,8 +276,6 @@ public class TransaccionesTerceros {
 						KeywordUtil.markWarning("no hizo clic en el boton cerrar")
 						WebUI.takeScreenshot("Screenshot/Transferencia_Error/boton_cerrar_${timestamp()}.png")
 									}
-	
-WebUI.click
 								
 	}
 	
