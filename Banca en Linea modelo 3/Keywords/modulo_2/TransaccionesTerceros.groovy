@@ -18,41 +18,46 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.util.KeywordUtil
-
+import org.openqa.selenium.Keys
 import internal.GlobalVariable
+
 
 public class TransaccionesTerceros {
 	@Keyword
 	def menuTransferencia() {
 
-		TestObject menu_Transferencia = findTestObject('Object Repository/Modulo 2/transacciones a terceros/boton menu transferencias')
-
-		if (WebUI.waitForElementClickable(menu_Transferencia, 10, FailureHandling.OPTIONAL)) {
-
-			WebUI.click(menu_Transferencia)
-			WebUI.takeScreenshot("Screenshot/Transferencia/menuTransferencia_${timestamp()}.png")
+		TestObject menutransferencia = findTestObject('Object Repository/Modulo 2/transacciones a terceros/boton menu transferencias')
+	
+		if (WebUI.waitForElementClickable(menutransferencia, 10, FailureHandling.OPTIONAL)) {
+			WebUI.click(menutransferencia)
 			WebUI.comment("hizo clic en el menu transferencia correctamente")
 			KeywordUtil.markPassed("hizo clic en el menu transferencia correctamente")
+			WebUI.takeScreenshot("Screenshot/Transferencia/menuTransferencia_${timestamp()}.png")
 		} else {
-			KeywordUtil.markWarning("no hizo clic en el menu transferencia")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/menuTransferencia_${timestamp()}.png")
+			KeywordUtil.markWarning("no hizo clic en el menu transferencia")
+			
 		}
 	}
 
+	// transferencias a terceros
 	@Keyword
 	def transferenciaTerceros() {
 
-		TestObject transferencia = findTestObject('Object Repository/Modulo 2/transacciones a terceros/boton menu transferencias')
-
+		TestObject transferencia = findTestObject('Object Repository/Modulo 2/transacciones a terceros/seleccion a tercero')
+		
+		
 		if (WebUI.waitForElementClickable(transferencia, 10, FailureHandling.OPTIONAL)) {
-
 			WebUI.click(transferencia)
-			WebUI.takeScreenshot("Screenshot/Transferencia/Transferencia_a_Terceros_${timestamp()}.png")
+			
 			WebUI.comment("hizo clic en transferencia a tercero correctamente")
 			KeywordUtil.markPassed("hizo clic en transferencia a tercero correctamente")
+			WebUI.takeScreenshot("Screenshot/Transferencia/Transferencia_a_Terceros_${timestamp()}.png")
+			
 		} else {
-			KeywordUtil.markWarning("no hizo clic en transaccion a terceros")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/Transferencia_a_Terceros_${timestamp()}.png")
+			KeywordUtil.markWarning("no hizo clic en transaccion a terceros")
+			
 		}
 	}
 	
@@ -73,8 +78,9 @@ public class TransaccionesTerceros {
 			WebUI.comment("hizo clic en la lista de cuentas debito correctamente")
 			KeywordUtil.markPassed("hizo clic en la lista de cuentas debito correctamente")
 		} else {
-			KeywordUtil.markWarning("no hizo clic en la lista de cuentas debito")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/lista_cuentas_${timestamp()}.png")
+			KeywordUtil.markWarning("no hizo clic en la lista de cuentas debito")
+			
 		}
 		
 		// selecciona cuentas debitos
@@ -88,8 +94,9 @@ public class TransaccionesTerceros {
 			WebUI.comment("hizo clic en la cuenta debito correctamente")
 			KeywordUtil.markPassed("hizo clic en la cuenta debito correctamente")
 		} else {
-			KeywordUtil.markWarning("no hizo hizo clic en la cuenta debito")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/no_selecciono_cuenta_${timestamp()}.png")
+			KeywordUtil.markWarning("no hizo hizo clic en la cuenta debito")
+			
 		}
 		
 	}
@@ -106,10 +113,10 @@ public class TransaccionesTerceros {
 		if (WebUI.waitForElementClickable(ingresaMonto, 10, FailureHandling.OPTIONAL)) {
 
 			WebUI.setText(ingresaMonto, monto)
-			
+			WebUI.sendKeys(ingresaMonto, Keys.chord(Keys.TAB))
 			WebUI.comment("ingreso el monto correctamente")
 			KeywordUtil.markPassed("ingreso el monto correctamente")
-			WebUI.sendKeys(ingresaMonto, Keys.chord(Keys.TAB))
+			
 			WebUI.takeScreenshot("Screenshot/Transferencia/monto_${timestamp()}.png")
 		} else {
 			KeywordUtil.markWarning("no selecciono la cuenta destino")
@@ -131,18 +138,20 @@ public class TransaccionesTerceros {
 		
 		if (WebUI.waitForElementClickable(listaProductos, 10, FailureHandling.OPTIONAL)) {
 
-			WebUI.click(listaProducto)
+			WebUI.click(listaProductos)
 			WebUI.takeScreenshot("Screenshot/Transferencia/Lista_Producto_${timestamp()}.png")
 			WebUI.comment("hizo clic en la lista de productos correctamente")
 			KeywordUtil.markPassed("hizo clic en la lista de productos correctamente")
 		} else {
-			KeywordUtil.markWarning("no hizo clic en la lista de productos")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/lista_productos_${timestamp()}.png")
+			KeywordUtil.markWarning("no hizo clic en la lista de productos")
+			
 		}
 		
 		// selecciona producto cuenta ahorro corriente o prestamo 
 		
-		TestObject productoDestino = findTestObject('Object Repository/Modulo 2/transacciones a terceros/cuenta debito')
+		TestObject productoDestino = findTestObject('Object Repository/Modulo 2/transacciones a terceros/producto destino')
+		
 		
 		if (WebUI.waitForElementClickable(productoDestino, 10, FailureHandling.OPTIONAL)) {
 
@@ -151,8 +160,9 @@ public class TransaccionesTerceros {
 			WebUI.comment("selecciono la cuenta debito correctamente")
 			KeywordUtil.markPassed("selecciono la cuenta debito correctamente")
 		} else {
-			KeywordUtil.markWarning("no seleccione la cuenta debito")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/no_selecciono_producto_Destino_${timestamp()}.png")
+			KeywordUtil.markWarning("no seleccione la cuenta debito")
+			
 		}
 		
 	}
@@ -175,11 +185,12 @@ public class TransaccionesTerceros {
 			
 			WebUI.comment("ingreso la cuenta destino correctamente")
 			KeywordUtil.markPassed("selecciono la cuenta destino correctamente")
-			WebUI.sendKeys(cuentadestino, Keys.chord(Keys.TAB))
+			WebUI.sendKeys(cuentaDestino, Keys.chord(Keys.TAB))
 			WebUI.takeScreenshot("Screenshot/Transferencia/cuentas_destino_${timestamp()}.png")
 		} else {
-			KeywordUtil.markWarning("no selecciono la cuenta destino")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/no_Selecciono_cuenta_${timestamp()}.png")
+			KeywordUtil.markWarning("no selecciono la cuenta destino")
+			
 		}
 	}
 	
@@ -188,7 +199,7 @@ public class TransaccionesTerceros {
 	@Keyword
 	def ingresaConcepto(concepto) {
 		
-		TestObject ingresarconcepto = findTestObject('Object Repository/Modulo 2/transacciones a terceros/ingresar Cuenta Destino')
+		TestObject ingresarconcepto = findTestObject('Object Repository/Modulo 2/transacciones a terceros/ingresar Concepto') 
 		
 		
 		if (WebUI.waitForElementClickable(ingresarconcepto, 10, FailureHandling.OPTIONAL)) {
@@ -200,8 +211,9 @@ public class TransaccionesTerceros {
 			WebUI.sendKeys(ingresarconcepto, Keys.chord(Keys.TAB))
 			WebUI.takeScreenshot("Screenshot/Transferencia/concepto_${timestamp()}.png")
 		} else {
-			KeywordUtil.markWarning("no ingreso concepto")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/concepto_${timestamp()}.png")
+			KeywordUtil.markWarning("no ingreso concepto")
+			
 		}
 	}
 	
@@ -222,8 +234,9 @@ public class TransaccionesTerceros {
 			WebUI.sendKeys(ingresarcorreo, Keys.chord(Keys.TAB))
 			WebUI.takeScreenshot("Screenshot/Transferencia/correo_${timestamp()}.png")
 		} else {
-			KeywordUtil.markWarning("no ingreso concepto")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/correo_${timestamp()}.png")
+			KeywordUtil.markWarning("no ingreso concepto")
+			
 		}
 	}
 	
@@ -233,9 +246,8 @@ public class TransaccionesTerceros {
 		
 		
 	// boton continuar 
-	TestObject botonContinuar = findTestObject('Object Repository/Modulo 2/transacciones a terceros/lista Producto Destino')
-	
-			
+	TestObject botonContinuar = findTestObject('Object Repository/Modulo 2/transacciones a terceros/buton continuar')
+		
 	if (WebUI.waitForElementClickable(botonContinuar, 10, FailureHandling.OPTIONAL)) {
 	
 		WebUI.click(botonContinuar)
@@ -243,8 +255,9 @@ public class TransaccionesTerceros {
 		WebUI.comment("hizo clic en el boton continuar correctamente")
 				KeywordUtil.markPassed("hizo clic en el boton continuar correctamente")
 			} else {
-				KeywordUtil.markWarning("no hizo clic en el boton continuar productos")
 				WebUI.takeScreenshot("Screenshot/Transferencia_Error/boton_continuar_${timestamp()}.png")
+				KeywordUtil.markWarning("no hizo clic en el boton continuar productos")
+				
 			}
 			
 		// boton aceptar 
@@ -258,8 +271,9 @@ public class TransaccionesTerceros {
 			WebUI.comment("hizo clic en el boton aceptar correctamente")
 			KeywordUtil.markPassed("hizo clic en el aceptar correctamente")
 				} else {
-					KeywordUtil.markWarning("no hizo clic en el boton aceptar")
 					WebUI.takeScreenshot("Screenshot/Transferencia_Error/boton_aceptar_${timestamp()}.png")
+					KeywordUtil.markWarning("no hizo clic en el boton aceptar")
+					
 					}
 	// boton cerrar
 
@@ -273,10 +287,15 @@ public class TransaccionesTerceros {
 				WebUI.comment("hizo clic en el boton cerrar correctamente")
 				KeywordUtil.markPassed("hizo clic en el cerrar correctamente")
 					} else {
-						KeywordUtil.markWarning("no hizo clic en el boton cerrar")
 						WebUI.takeScreenshot("Screenshot/Transferencia_Error/boton_cerrar_${timestamp()}.png")
+						KeywordUtil.markWarning("no hizo clic en el boton cerrar")
+						
 									}
 								
+	}
+	
+	private String timestamp() {
+		return new Date().format('yyyyMMdd_HHmmss')
 	}
 	
 }
