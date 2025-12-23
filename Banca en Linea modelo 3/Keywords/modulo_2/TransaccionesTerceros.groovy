@@ -56,6 +56,10 @@ public class TransaccionesTerceros {
 		}
 	}
 	
+	/*
+	 * seleccionar la cuenta de debito 
+	 */
+	
 	@Keyword
 	def SeleccionCuentaDebito() {
 		
@@ -90,10 +94,78 @@ public class TransaccionesTerceros {
 		
 	}
 	
+	/*
+	 * ingresar monto
+	 */
 	@Keyword
-	def ingresarCuentaDestino(cuenta) {
+	def ingresarMontoTranferir(monto) {
 		
-		// lista de cuentas debitos
+		TestObject ingresaMonto = findTestObject('Object Repository/Modulo 2/transacciones a terceros/ingresar monto a pagar')
+		
+		
+		if (WebUI.waitForElementClickable(ingresaMonto, 10, FailureHandling.OPTIONAL)) {
+
+			WebUI.setText(ingresaMonto, monto)
+			
+			WebUI.comment("ingreso el monto correctamente")
+			KeywordUtil.markPassed("ingreso el monto correctamente")
+			WebUI.sendKeys(ingresaMonto, Keys.chord(Keys.TAB))
+			WebUI.takeScreenshot("Screenshot/Transferencia/monto_${timestamp()}.png")
+		} else {
+			KeywordUtil.markWarning("no selecciono la cuenta destino")
+			WebUI.takeScreenshot("Screenshot/Transferencia_Error/no_ingreso_monto_${timestamp()}.png")
+		}
+	}
+		
+	/*
+	 * seleccionar cuenta Destino en esta session se hara clic en la lista de productos y se seleccionara un producto
+	 * tipo cuenta ahorro cuenta corriente o prestamo , tarjeta de credito
+	 * 
+	 */
+	@Keyword
+	def SeleccionProductoDestino() {
+		
+		// lista de productos destino
+		TestObject listaProductos = findTestObject('Object Repository/Modulo 2/transacciones a terceros/lista Producto Destino')
+
+		
+		if (WebUI.waitForElementClickable(listaProductos, 10, FailureHandling.OPTIONAL)) {
+
+			WebUI.click(listaProducto)
+			WebUI.takeScreenshot("Screenshot/Transferencia/Lista_Producto_${timestamp()}.png")
+			WebUI.comment("hizo clic en la lista de productos correctamente")
+			KeywordUtil.markPassed("hizo clic en la lista de productos correctamente")
+		} else {
+			KeywordUtil.markWarning("no hizo clic en la lista de productos")
+			WebUI.takeScreenshot("Screenshot/Transferencia_Error/lista_productos_${timestamp()}.png")
+		}
+		
+		// selecciona producto cuenta ahorro corriente o prestamo 
+		
+		TestObject productoDestino = findTestObject('Object Repository/Modulo 2/transacciones a terceros/cuenta debito')
+		
+		if (WebUI.waitForElementClickable(productoDestino, 10, FailureHandling.OPTIONAL)) {
+
+			WebUI.click(productoDestino)
+			WebUI.takeScreenshot("Screenshot/Transferencia/producto_Destino_${timestamp()}.png")
+			WebUI.comment("selecciono la cuenta debito correctamente")
+			KeywordUtil.markPassed("selecciono la cuenta debito correctamente")
+		} else {
+			KeywordUtil.markWarning("no seleccione la cuenta debito")
+			WebUI.takeScreenshot("Screenshot/Transferencia_Error/no_selecciono_producto_Destino_${timestamp()}.png")
+		}
+		
+	}
+	
+	
+	
+	/*
+	 * ingresar cuenta destino 
+	 */
+	
+	@Keyword
+	def ingresaCuentaDestino(cuenta) {
+		
 		TestObject cuentaDestino = findTestObject('Object Repository/Modulo 2/transacciones a terceros/ingresar Cuenta Destino')
 		
 		
@@ -109,5 +181,104 @@ public class TransaccionesTerceros {
 			KeywordUtil.markWarning("no selecciono la cuenta destino")
 			WebUI.takeScreenshot("Screenshot/Transferencia_Error/no_Selecciono_cuenta_${timestamp()}.png")
 		}
+	}
+	
+	// ingresar concepto 
+	
+	@Keyword
+	def ingresaConcepto(concepto) {
+		
+		TestObject ingresarconcepto = findTestObject('Object Repository/Modulo 2/transacciones a terceros/ingresar Cuenta Destino')
+		
+		
+		if (WebUI.waitForElementClickable(ingresarconcepto, 10, FailureHandling.OPTIONAL)) {
+
+			WebUI.setText(ingresarconcepto, concepto)
+			
+			WebUI.comment("ingresar el concepto correctamente")
+			KeywordUtil.markPassed("ingreso el concepto correctamente")
+			WebUI.sendKeys(ingresarconcepto, Keys.chord(Keys.TAB))
+			WebUI.takeScreenshot("Screenshot/Transferencia/concepto_${timestamp()}.png")
+		} else {
+			KeywordUtil.markWarning("no ingreso concepto")
+			WebUI.takeScreenshot("Screenshot/Transferencia_Error/concepto_${timestamp()}.png")
+		}
+	}
+	
+	// ingresar correo 
+	
+	@Keyword
+	def ingresaCorreo(correo) {
+		
+		TestObject ingresarcorreo = findTestObject('Object Repository/Modulo 2/transacciones a terceros/ingresar CORREO')
+		
+		
+		if (WebUI.waitForElementClickable(ingresarcorreo, 10, FailureHandling.OPTIONAL)) {
+
+			WebUI.setText(ingresarcorreo, correo)
+			
+			WebUI.comment("ingresar el correo correctamente")
+			KeywordUtil.markPassed("ingreso el correo correctamente")
+			WebUI.sendKeys(ingresarcorreo, Keys.chord(Keys.TAB))
+			WebUI.takeScreenshot("Screenshot/Transferencia/correo_${timestamp()}.png")
+		} else {
+			KeywordUtil.markWarning("no ingreso concepto")
+			WebUI.takeScreenshot("Screenshot/Transferencia_Error/correo_${timestamp()}.png")
+		}
+	}
+	
+	// hacer clic en el boton continuar 
+	@Keyword
+	def botonesContinuar() {
+		
+		
+	// boton continuar 
+	TestObject botonContinuar = findTestObject('Object Repository/Modulo 2/transacciones a terceros/lista Producto Destino')
+	
+			
+	if (WebUI.waitForElementClickable(botonContinuar, 10, FailureHandling.OPTIONAL)) {
+	
+		WebUI.click(botonContinuar)
+		WebUI.takeScreenshot("Screenshot/Transferencia/botonContinuar_${timestamp()}.png")
+		WebUI.comment("hizo clic en el boton continuar correctamente")
+				KeywordUtil.markPassed("hizo clic en el boton continuar correctamente")
+			} else {
+				KeywordUtil.markWarning("no hizo clic en el boton continuar productos")
+				WebUI.takeScreenshot("Screenshot/Transferencia_Error/boton_continuar_${timestamp()}.png")
+			}
+			
+		// boton aceptar 
+	TestObject botonAceptar = findTestObject('Object Repository/Modulo 2/transacciones a terceros/buton Aceptar')
+	
+					
+		if (WebUI.waitForElementClickable(botonAceptar, 10, FailureHandling.OPTIONAL)) {
+			
+			WebUI.click(botonAceptar)
+			WebUI.takeScreenshot("Screenshot/Transferencia/boton_Aceptar_${timestamp()}.png")
+			WebUI.comment("hizo clic en el boton aceptar correctamente")
+			KeywordUtil.markPassed("hizo clic en el aceptar correctamente")
+				} else {
+					KeywordUtil.markWarning("no hizo clic en el boton aceptar")
+					WebUI.takeScreenshot("Screenshot/Transferencia_Error/boton_aceptar_${timestamp()}.png")
+					}
+	// boton cerrar
+
+	TestObject botonCerrar = findTestObject('Object Repository/Modulo 2/transacciones a terceros/boton cerrar')
+	
+									
+			if (WebUI.waitForElementClickable(botonCerrar, 10, FailureHandling.OPTIONAL)) {
+					
+				WebUI.click(botonCerrar)
+				WebUI.takeScreenshot("Screenshot/Transferencia/boton_cerrar_${timestamp()}.png")
+				WebUI.comment("hizo clic en el boton cerrar correctamente")
+				KeywordUtil.markPassed("hizo clic en el cerrar correctamente")
+					} else {
+						KeywordUtil.markWarning("no hizo clic en el boton cerrar")
+						WebUI.takeScreenshot("Screenshot/Transferencia_Error/boton_cerrar_${timestamp()}.png")
+									}
+	
+WebUI.click
+								
+	}
 	
 }

@@ -17,3 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'modulo_1.Navegador.navigate'(link)
+
+CustomKeywords.'modulo_1.Login.ingresar_usuario'(user)
+
+CustomKeywords.'modulo_1.Login.ingresar_Contrasena'(pass)
+
+CustomKeywords.'modulo_1.Login.boton_Login'()
+
+CustomKeywords.'modulo_2.TransaccionesTerceros.menuTransferencia'()
+
+CustomKeywords.'modulo_2.TransaccionesTerceros.transferenciaTerceros'()
+
+CustomKeywords.'modulo_2.TransaccionesTerceros.SeleccionCuentaDebito'()
+
+CustomKeywords.'modulo_2.TransaccionesTerceros.ingresarMontoTranferir'(monto)
+
+CustomKeywords.'modulo_2.TransaccionesTerceros.SeleccionProductoDestino'()
+
+CustomKeywords.'modulo_2.TransaccionesTerceros.ingresaCuentaDestino'(cuenta)
+
+CustomKeywords.'modulo_2.TransaccionesTerceros.ingresaConcepto'(concepto)
+
+CustomKeywords.'modulo_2.TransaccionesTerceros.ingresaCorreo'(correo)
+
+CustomKeywords.'modulo_2.TransaccionesTerceros.botonesContinuar'()
+
+CustomKeywords.'modulo_1.Login.Logout'()
+
