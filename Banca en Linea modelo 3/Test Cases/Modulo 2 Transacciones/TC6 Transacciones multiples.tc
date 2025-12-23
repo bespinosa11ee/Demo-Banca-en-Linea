@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>transacciones a multiples cuentas ya sea a terceros o a cuentas de credicorp</description>
+   <name>TC6 Transacciones multiples</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f7c419d-8c7a-406e-abad-19c7a93fe8f9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>se pagaran multiples sevicios</description>
+   <name>TC9 Pagos Multiples</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39fe53ba-ba00-4663-93f5-d341def73a2e</testCaseGuid>
+</TestCaseEntity>

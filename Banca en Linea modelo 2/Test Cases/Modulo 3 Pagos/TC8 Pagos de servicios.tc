@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>se pagara cualquier servicio</description>
+   <name>TC8 Pagos de servicios</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>665e3c20-8a9f-4518-b1c3-35196b9d01ef</testCaseGuid>
+</TestCaseEntity>

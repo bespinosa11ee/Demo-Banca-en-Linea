@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Set de pruebas 1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>50ce09c0-18ee-48ec-b43c-841b3ace2a52</testSuiteGuid>
+   <testCaseLink>
+      <guid>a1187712-a57d-4f54-89a6-151716160b2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>findTestData('Datos')</defaultValue>
+         <description></description>
+         <id>87726ed0-8925-4120-85a4-2433aa072eb0</id>
+         <masked>false</masked>
+         <name>user</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Modulo1 Login/TC1 Login Correcto</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>80ab2054-2c21-4a44-b23e-6eb8e733460c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Datos</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>80ab2054-2c21-4a44-b23e-6eb8e733460c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>87726ed0-8925-4120-85a4-2433aa072eb0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80ab2054-2c21-4a44-b23e-6eb8e733460c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>86293e0d-93c2-44bf-9e5b-26b7f032735e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80ab2054-2c21-4a44-b23e-6eb8e733460c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>cuenta</value>
+         <variableId>fb1f0761-819c-473e-8652-76b9922134ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80ab2054-2c21-4a44-b23e-6eb8e733460c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>link</value>
+         <variableId>43143bc8-24f4-4f12-be25-f35bb19efe94</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

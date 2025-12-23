@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>se inicia sesion con credenciales validas</description>
+   <name>TC1 Login Correcto</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4ddda48-2b7a-41a4-ae79-fb3ce3b26075</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>87726ed0-8925-4120-85a4-2433aa072eb0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86293e0d-93c2-44bf-9e5b-26b7f032735e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>43143bc8-24f4-4f12-be25-f35bb19efe94</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Datos')</defaultValue>
+      <description></description>
+      <id>87726ed0-8925-4120-85a4-2433aa072eb0</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Datos')</defaultValue>
+      <description></description>
+      <id>86293e0d-93c2-44bf-9e5b-26b7f032735e</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Datos')</defaultValue>
+      <description></description>
+      <id>43143bc8-24f4-4f12-be25-f35bb19efe94</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variable>
+</TestCaseEntity>

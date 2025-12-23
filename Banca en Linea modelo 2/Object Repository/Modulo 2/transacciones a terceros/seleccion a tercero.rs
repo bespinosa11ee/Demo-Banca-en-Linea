@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>seleccion a tercero</name>
+   <tag></tag>
+   <elementGuidId>e81503cc-ec97-482e-b314-4ae363aaecec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[contains(.,'Terceros Credicorp')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#_2560menu2590_PyOOtx_text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Terceros Credicorp&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>befa2e6a-7d1f-45c2-9c6e-deeb26099d3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dijitReset dijitMenuItemLabel</value>
+      <webElementGuid>8bd4803a-98fa-4135-8206-acc248cf27e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>33113890-d4d5-4a96-8b96-f27098db3000</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dojo-attach-point</name>
+      <type>Main</type>
+      <value>containerNode,textDirNode</value>
+      <webElementGuid>9e3da8b9-0d99-4a91-afb1-a3ac85c9cdf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>_2560menu2590_PyOOtx_text</value>
+      <webElementGuid>13d9fc8c-9127-414f-90a6-f8546e8cb296</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Terceros Credicorp</value>
+      <webElementGuid>9f09f8a8-f283-4c0b-9bfa-28094cc4c71b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;_2560menu2590_PyOOtx_text&quot;)</value>
+      <webElementGuid>729b8887-fe60-4dc3-8406-038819f221c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='_2560menu2590_PyOOtx_text']</value>
+      <webElementGuid>2622ba31-763c-4147-b597-97478258bcf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='_2560menu2590_PyOOtx']/td[2]</value>
+      <webElementGuid>767cd11f-4429-479c-bf7c-3e241b05e98d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[2]/following::td[2]</value>
+      <webElementGuid>06f94b9b-aef5-4c83-849c-600a2602addc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Cuentas'])[1]/following::td[4]</value>
+      <webElementGuid>f50c8aed-f6b3-4739-8f46-6f1ca400b6a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[3]/preceding::td[2]</value>
+      <webElementGuid>1df5645d-80a7-4b5e-b1e5-4550dc28f1ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transferencias Recurrentes'])[1]/preceding::td[4]</value>
+      <webElementGuid>4e0afa8d-aaf3-461f-a4f5-51e758605a57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terceros Credicorp']/parent::*</value>
+      <webElementGuid>1a256c56-fa3e-46fe-bf1c-9d250f7cf693</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[2]</value>
+      <webElementGuid>a3ba61a2-18dd-44db-8a8d-1af4b8c4dee3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[@id = '_2560menu2590_PyOOtx_text' and (text() = 'Terceros Credicorp' or . = 'Terceros Credicorp')]</value>
+      <webElementGuid>0a10d9d4-5b39-4978-8859-7f76327028f2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

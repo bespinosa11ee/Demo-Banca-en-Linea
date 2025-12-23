@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Ejecucion 2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>cab5e68d-d9a2-47ba-94e4-6e1136db867f</testSuiteGuid>
+   <testCaseLink>
+      <guid>443f6c85-ab46-41ff-a2df-e89454383db8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Modulo 2 Transacciones/TC3 Transacciones cuentas a terceros</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4d0a9ad6-4640-4a74-a5da-a583ac2edb66</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Datos</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4d0a9ad6-4640-4a74-a5da-a583ac2edb66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>86395738-da27-4ef0-832f-7920412e8615</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4d0a9ad6-4640-4a74-a5da-a583ac2edb66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>1000154f-a3f3-45a3-ab31-103460e7b9eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4d0a9ad6-4640-4a74-a5da-a583ac2edb66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>cuenta</value>
+         <variableId>a97be202-a470-4b48-90ef-dba9dab81a57</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4d0a9ad6-4640-4a74-a5da-a583ac2edb66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>monto</value>
+         <variableId>5f9e5f73-7974-4d75-94ad-d5f4aeff1293</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4d0a9ad6-4640-4a74-a5da-a583ac2edb66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>concepto</value>
+         <variableId>0e2f5f6b-0202-40c2-86c6-7993220df73a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4d0a9ad6-4640-4a74-a5da-a583ac2edb66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>correo</value>
+         <variableId>14b767e0-795c-4f66-9ee0-9ca0307587d6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4d0a9ad6-4640-4a74-a5da-a583ac2edb66</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>link</value>
+         <variableId>6b4f2767-1ace-41e2-982d-2c185823bce5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

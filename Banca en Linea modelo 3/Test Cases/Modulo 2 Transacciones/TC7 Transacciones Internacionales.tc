@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Transacciones a cuentas de bancos de otros paises</description>
+   <name>TC7 Transacciones Internacionales</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3721c34f-8aec-4abc-9211-4c14c6b3f216</testCaseGuid>
+</TestCaseEntity>
