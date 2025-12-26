@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lista de servicios</name>
+   <tag></tag>
+   <elementGuidId>b2bde607-6286-46bd-8b71-8d52730bd081</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.dijitReset.dijitRight.dijitButtonNode.dijitArrowButton.dijitDownArrowButton.dijitArrowButtonContainer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='dijit_form_Select_0']/tbody/tr/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;Seleccione un ítem&quot;i] >> internal:role=cell >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>fd242202-99f4-43db-bd95-fc10d8166a23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton dijitArrowButtonContainer</value>
+      <webElementGuid>bdbedcea-fc1e-4da6-a89a-37f0b4c90807</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dojo-attach-point</name>
+      <type>Main</type>
+      <value>titleNode</value>
+      <webElementGuid>e9c7541c-1595-4320-bbcb-da29b2b39e71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>6d648609-4327-4d39-9ca6-6d9932bd199e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dijit_form_Select_0&quot;)/tbody[1]/tr[1]/td[@class=&quot;dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton dijitArrowButtonContainer&quot;]</value>
+      <webElementGuid>f2966bdc-e705-4d5f-b798-9817a1f3f92f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='dijit_form_Select_0']/tbody/tr/td[2]</value>
+      <webElementGuid>61cc909d-ce12-4c76-8e05-2ebfa47d2c93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccione un ítem'])[1]/following::td[1]</value>
+      <webElementGuid>203c48d8-97e5-45f4-b733-d88a93a3becb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categoría'])[1]/following::td[3]</value>
+      <webElementGuid>437674ad-6211-408f-b804-be7f2c869d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Búsqueda'])[1]/preceding::td[1]</value>
+      <webElementGuid>7270fede-fb04-4857-b288-2016d8856ac2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='●'])[3]/preceding::td[8]</value>
+      <webElementGuid>7da59e60-05b7-45e5-9c9e-6f3ee587a6eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>0d97366e-6387-4625-9674-3dbca6a62d3d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

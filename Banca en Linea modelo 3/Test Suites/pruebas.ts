@@ -68,5 +68,17 @@
          <value>link</value>
          <variableId>6b4f2767-1ace-41e2-982d-2c185823bce5</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>0d276f32-e4e7-4a0d-b1d1-96b33a4f6a54</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>cuenta_destino</value>
+         <variableId>d17edd61-9849-404f-9928-6c1bb7d8ec7e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0d276f32-e4e7-4a0d-b1d1-96b33a4f6a54</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tipo_producto</value>
+         <variableId>ed0ec4ba-6a5f-4b75-b412-7cecc4c42581</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -29,11 +29,11 @@ CustomKeywords.'modulo_2.TransaccionesTerceros.menuTransferencia'()
 
 CustomKeywords.'modulo_2.TransaccionesTerceros.transferenciaTerceros'()
 
-CustomKeywords.'modulo_2.TransaccionesTerceros.SeleccionCuentaDebito'()
+CustomKeywords.'modulo_2.TransaccionesTerceros.SeleccionCuentaDebito'(numeroCuentaDebito)
 
 CustomKeywords.'modulo_2.TransaccionesTerceros.ingresarMontoTranferir'(monto)
 
-CustomKeywords.'modulo_2.TransaccionesTerceros.SeleccionProductoDestino'()
+CustomKeywords.'modulo_2.TransaccionesTerceros.SeleccionProductoDestino'(tipoProducto)
 
 CustomKeywords.'modulo_2.TransaccionesTerceros.ingresaCuentaDestino'(cuenta)
 
